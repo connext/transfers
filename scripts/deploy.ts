@@ -3,7 +3,7 @@ import { Contract } from "@ethersproject/contracts";
 import { keccak256 } from "@ethersproject/keccak256";
 import { ethers } from "hardhat";
 
-const transfers = ["Insurance", "Parameterized"];
+const transfers = ["Insurance", "Parameterized", "MessageTransfer"];
 
 const MIN_GAS_LIMIT = ethers.BigNumber.from(500_000);
 
