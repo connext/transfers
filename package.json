@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "build": "rm -rf dist && hardhat compile && tsc",
-    "test": "mocha --require ts-node/register --require hardhat/register --timeout 60000 'tests/**/*.spec.ts'"
+    "test": "mocha --require ts-node/register --require hardhat/register --timeout 60000 'tests/**/*.spec.ts'",
+    "deploy": "hardhat run scripts/deploy.ts"
   },
   "dependencies": {},
   "devDependencies": {
